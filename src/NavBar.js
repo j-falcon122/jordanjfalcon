@@ -5,7 +5,7 @@ import './NavBar.css';
 class NavBar extends Component {
   render() {
     return (
-      <div className="Nav"> 
+      <div className="NavBar"> 
       <img src={logo} className="Nav-loading-logo" alt="logo" />
 
         <ul>

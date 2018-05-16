@@ -1,0 +1,39 @@
+/*colors:
+  323A42 - Navy Blue
+  465058 - lighter Blue
+  A6A5A1 - Gray
+  F2ECE9 - light Gray
+  EB242A - Red
+*/
+
+.Footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: #465058;
+    width: 100%;
+}
+
+.Footer-assets {
+    display: inline-block;
+    /*widows: 100%;*/
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.Footer-assets li {
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 15px 15px;
+}
+
+.Footer-assets li a {
+    color: #F2ECE9;
+}
+
+.Footer-assets li a:hover {
+    color: #EB242A;
+}
+
+
+

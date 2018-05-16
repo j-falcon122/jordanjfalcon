@@ -12,21 +12,18 @@
 }
 
 .App-loading-logo {
-  /*position: fixed;*/
+  animation: App-logo-spin infinite 10s linear;
   margin-top: 200px;
-  width: 300px;
+  width: 200px;
   height: auto;
 }
 
 .App-loading-logo:hover {
-  animation: App-logo-spin infinite 20s linear;
-  opacity: .8;
   cursor: pointer;
 }
 
 
 .App-header {
-  background-color: #323A42;
 }
 
 .App-title {
@@ -35,6 +32,12 @@
 
 .App-intro {
   font-size: large;
+}
+
+.App-loading {
+  margin-top: 70px;
+  font-size: 1.5em;
+  color: #323A42;
 }
 
 @keyframes App-logo-spin {
