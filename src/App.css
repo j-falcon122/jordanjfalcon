@@ -22,6 +22,9 @@
   cursor: pointer;
 }
 
+.App-body {
+  margin: 100px 05px;
+}
 
 .App-header {
 }

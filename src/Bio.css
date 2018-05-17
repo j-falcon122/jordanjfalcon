@@ -1,0 +1,43 @@
+/*colors:
+  323A42 - Navy Blue
+  465058 - lighter Blue
+  A6A5A1 - Gray
+  F2ECE9 - light Gray
+  EB242A - Red
+*/
+
+.Bio-container {
+    color: #323A42; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: row wrap
+ }
+
+.Bio-profile-pic {
+    flex: 1;
+    width: 400px;
+    height: auto;
+    box-shadow: 3px 3px 3px 0px #AAA;
+}
+
+.Bio-content {
+    flex: 2;
+}
+
+
+.Bio-content ul {
+    list-style: none;
+    text-align: left;
+}
+
+.Bio-content a {
+    text-decoration: none;
+    color: #465058;
+    opacity: .7;
+}
+
+.Bio-content a:hover {
+    color: #EB242A;
+    cursor: pointer;
+}
