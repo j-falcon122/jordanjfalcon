@@ -11,6 +11,11 @@
     background-color: #323A42;
 }
 
+.NavBar-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 .NavBar ul {
     list-style: none;
     text-align: right;
@@ -31,6 +36,12 @@
 }
 
 .Nav-list-item:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #A6A5A1;
+}
+
+.Nav-list-item:active {
     text-decoration: none;
     cursor: pointer;
     color: #A6A5A1;

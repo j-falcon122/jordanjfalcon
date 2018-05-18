@@ -1,0 +1,57 @@
+/*colors:
+  323A42 - Navy Blue
+  465058 - lighter Blue
+  A6A5A1 - Gray
+  F2ECE9 - light Gray
+  EB242A - Red
+*/
+
+h1 {
+    color: #465058;
+}
+
+.Projects {
+    background-color: blue;
+}
+
+.Projects-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: auto;
+    margin-left: -20px;
+}
+
+.Project-img {
+    max-width: 300px;
+    min-height: 250px;
+    height: auto;
+}
+
+.Project-img:hover {
+    opacity: .7;
+}
+
+figure a:hover {
+    text-decoration: none;
+}
+
+figcaption {
+    color: #465058;
+    margin: 25px 0;
+    font-size: 1.5em; 
+}
+
+figcaption:hover {
+    color: #EB242A;
+}
+
+@media only screen and (max-width: 800px) {
+    .Projects-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
