@@ -21,9 +21,9 @@ class App extends Component {
           </header>
           <Switch>
             <div className="App-body">
+              <Route exact path="/" component={Bio}/>
               <Route path="/Bio" component={Bio}/>
               <Route path="/Projects" component={Projects}/>
-              <Route path="/Contact" component={Contact}/>
             </div>
           </Switch>
           <Footer />
