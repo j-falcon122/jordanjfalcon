@@ -4,7 +4,6 @@ import logo from './jf-logo.svg';
 import './NavBar.css';
 import Bio from './Bio'
 import Projects from './Projects'
-import Contact from './Contact'
 
 class NavBar extends Component {
   render() {

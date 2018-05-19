@@ -23,9 +23,8 @@
 }
 
 .App-body {
-  margin: 100px 05px;
   max-width: 1024px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .App-header {

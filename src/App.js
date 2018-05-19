@@ -6,7 +6,6 @@ import NavBar from './NavBar'
 import Footer from './Footer'
 import Bio from './Bio'
 import Projects from './Projects'
-import Contact from './Contact'
 
 
 class App extends Component {
