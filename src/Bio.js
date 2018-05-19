@@ -15,7 +15,7 @@ class Bio extends Component {
                 <h3>Experience</h3>
                 <ul className="Bio-experience">
                     <li>
-                        <h4><a href="http://gestalt.io/" target="_blank" title="Gesatalt" alt="Gesatalt">Gesatalt</a> - Web Developer Intern</h4>
+                        <h4><a href="http://gestalt.io/" target="_blank" title="Gesatalt" alt="Gestalt">Gestalt</a> - Web Developer Intern</h4>
                         <h5></h5>
                     </li>
                     <li>
@@ -27,7 +27,7 @@ class Bio extends Component {
                 <ul className="Bio-education">
                     <li> 
                         <h4><a href="http://lehman.edu/" target="_blank" alt="Lehamn College" title="Lehamn College">Lehman College</a> - June 2016 - Present</h4>
-                        <h5>Computer Sceince - Bachelors Sceince - Senior</h5>
+                        <h5>Computer Science - Bachelors Science - Senior</h5>
                     </li>  
                     <li> 
                         <h4><a href="https://flatironschool.com/" target="_blank" alt="The Flatiron School" title="The Flatiron School">The Flatiron School</a> - January 2015 - June 2015</h4>
