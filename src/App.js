@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-// import logo from './jf-logo.svg';
+import { BrowserRouter as Router, Route, Switch,Redirect } from 'react-router-dom'
 import './App.css';
 import NavBar from './NavBar'
 import Footer from './Footer'
@@ -20,7 +19,7 @@ class App extends Component {
           </header>
           <Switch>
             <div className="App-body">
-              <Route exact path="/" component={Bio}/>
+              <Redirect from="/" to="/Bio" />
               <Route path="/Bio" component={Bio}/>
               <Route path="/Projects" component={Projects}/>
             </div>
