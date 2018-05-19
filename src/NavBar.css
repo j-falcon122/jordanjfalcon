@@ -41,11 +41,15 @@
     color: #A6A5A1;
 }
 
-.Nav-list-item:active {
+.Nav-list-item.active {
     text-decoration: none;
+    pointer-events: none;
     cursor: pointer;
     color: #A6A5A1;
 }
+
+.Nav-list-item-active {
+  }
 
 .Nav-list-item:before {
     text-decoration: none;

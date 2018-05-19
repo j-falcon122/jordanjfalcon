@@ -41,7 +41,20 @@
     text-decoration: none;
     color: #465058;
     opacity: .7;
-    margin: 10px;
+    /*margin: 10px;*/
+}
+
+.Bio-education {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.Bio-experience {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .Bio-content a:hover {
