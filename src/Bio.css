@@ -12,7 +12,8 @@
     flex-direction: row;
     justify-content: space-between;
     flex-flow: row wrap;
-    margin: 0 25px;
+    margin: -10px 25px;
+    margin-bottom: 100px;
  }
 
 .Bio-profile-pic {

@@ -11,17 +11,13 @@ h1 {
     margin-bottom: 30px;
 }
 
-.Projects {
-    background-color: blue;
-}
-
 .Projects-list {
     list-style: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    overflow: auto;
+    overflow: visible;
     margin-left: -20px;
 }
 

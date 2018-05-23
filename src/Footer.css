@@ -7,7 +7,8 @@
 */
 
 .Footer {
-    position: absolute;
+    position: relative;
+    display: block;
     bottom: 0px;
     background-color: #465058;
     width: 100%;
@@ -15,7 +16,6 @@
 
 .Footer-assets {
     display: inline-block;
-    /*widows: 100%;*/
     list-style: none;
     margin: 0 auto;
     padding: 0;
