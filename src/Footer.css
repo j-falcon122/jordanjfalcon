@@ -9,7 +9,6 @@
 .Footer {
     position: relative;
     display: block;
-    bottom: 0px;
     background-color: #465058;
     width: 100%;
 }
@@ -35,8 +34,10 @@
     color: #EB242A;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 925px) {
   .Footer {
+    position: absolute;
+    bottom: 0px;
   }
 }
 
