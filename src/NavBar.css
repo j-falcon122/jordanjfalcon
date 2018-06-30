@@ -77,7 +77,8 @@
   float: left;
   width: 33px;
   height: auto;
-  margin: 10px 10px;
+  margin-top: 12px;
+  margin-left: 25px;
 }
 
 .Nav-loading-logo:hover {
