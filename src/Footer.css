@@ -7,8 +7,8 @@
 */
 
 .Footer {
-    position: relative;
     display: block;
+    position: relative;
     background-color: #465058;
     width: 100%;
 }
@@ -34,11 +34,9 @@
     color: #EB242A;
 }
 
-@media only screen and (min-width: 940px) {
+/*@media only screen and (min-width: 940px) {
   .Footer {
-    position: absolute;
-    bottom: 0px;
   }
-}
+}*/
 
 
