@@ -7,7 +7,7 @@
 */
 
 .Footer {
-    position: relative;
+    position: absolute;
     display: block;
     background-color: #465058;
     width: 100%;
