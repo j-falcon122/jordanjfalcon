@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Link, NavLink } from 'react-router-dom'
+import { BrowserRouter as Link, NavLink } from 'react-router-dom'
 import logo from './jf-logo.svg';
 import './NavBar.css';
-import Bio from './Bio'
-import Projects from './Projects'
 
 class NavBar extends Component {
   render() {
