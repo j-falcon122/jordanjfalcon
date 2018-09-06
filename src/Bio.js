@@ -15,7 +15,10 @@ class Bio extends Component {
                 <h3>Experience</h3>
                 <ul className="Bio-experience">
                     <li>
-                        <h4><a href="http://www.espn.com/" target="_blank" title="Gesatalt" alt="ESPN">ESPN</a> - Front End Software Engineer Intern (Current)</h4>
+                        <h4><a href="https://ehtp.org/" target="_blank" title="EHTP" alt="EHTP">EHTP</a> - Data Corps Member (September-Current)</h4>
+                    </li>
+                    <li>
+                        <h4><a href="http://www.espn.com/" target="_blank" title="Gesatalt" alt="ESPN">ESPN</a> - Front End Software Engineer Intern (Summer 2018)</h4>
                     </li>
                     <li>
                         <h4><a href="http://gestalt.io/" target="_blank" title="Gesatalt" alt="Gestalt">Gestalt</a> - Web Developer (October-November 2017)</h4>
